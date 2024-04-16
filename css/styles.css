@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header{
+    text-align: center;
+    margin: 10px;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    margin: 0 45%;
+    list-style: none;
+}
+ul li{
+    margin: 0 5%;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+li a:hover{
+    font-weight: bolder;
+}
+.banner img{
+    width: 100%;
+    height: 800px;
+    margin: 10px 0;
+    object-fit: cover;
+}
+.articles{
+    width: 100%;
+    margin: 2% 0;
+    display: grid;
+    place-items: center;
+}
+.article{
+    width: 1200px;
+    display: grid;
+    grid-template-columns: auto 50%;
+    grid-gap: 20px;
+    
+}
+.article h1{
+    margin: 50px 0;
+}
+.article img{
+    cursor: pointer;
+}
+.contact{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding:  2% 5%;
+}
+.contact a{
+    color: white;
+}
+.btn{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: white solid 5px;
+}
+.btn:hover{
+    color:black;
+    background-color: white;
+}
+footer{
+    margin: 20px;
+    text-align: center;
+}
+.socials{
+    display: flex;
+    justify-content: center;
+}
+.socials img{
+    margin: 20px;
+}
+
+
+
+#overlay-container{
+    display: none; /* Hide the modal by default */
+    position: fixed;
+    z-index: 1000; /* Ensure modal appears above other content */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+}
+
+/* Style for the modal content */
+.overlay-content{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+.close{
+    margin-left: 20px;
+    font-weight: bolder;
+    color: red;
+    cursor: pointer;
+}
+
+@media (max-width: 1249px){
+    
+}

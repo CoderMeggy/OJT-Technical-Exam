@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>GABASA Ascensoft OJT assessment</title>
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="">
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">About</a></li>
+            <li><a href="index.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="banner">
+        <img src="images/banner-bg.jpg" alt="">
+    </div>
+
+    <div class="articles">
+
+        <div class="article">
+            <div>
+                <h1>Space as an experience</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam dolores quia voluptas perferendis mollitia voluptatum! Dolorem tempora aliquam consequatur dolore animi maiores. Numquam, eum. Explicabo quis necessitatibus quaerat inventore facilis?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla eos voluptatem omnis id vero aut non explicabo placeat a illo, aspernatur atque laborum aliquam nisi repudiandae nam accusamus, ea iusto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Id assumenda quasi possimus quae, quidem ex dolores deserunt esse amet sed, tempore et vero dolore enim quisquam libero incidunt corrupti sapiente!Lorem.</p>
+             </div>
+            <img src="images/article-image1.jpg" alt="" onclick="popUp('images/article-image1.jpg')">
+        </div>
+        
+        <div class="article">
+            <img src="images/article-image2.jpg" alt="" onclick="popUp('images/article-image2.jpg')">
+            <div>
+                <h1>Let us handle that</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam dolores quia voluptas perferendis mollitia voluptatum! Dolorem tempora aliquam consequatur dolore animi maiores. Numquam, eum. Explicabo quis necessitatibus quaerat inventore facilis?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla eos voluptatem omnis id vero aut non explicabo placeat a illo, aspernatur atque laborum aliquam nisi repudiandae nam accusamus, ea iusto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Id assumenda quasi possimus quae, quidem ex dolores deserunt esse amet sed, tempore et vero dolore enim quisquam libero incidunt corrupti sapiente!Lorem.</p>
+             </div>
+         </div>
+
+    </div>
+    
+    <div class="contact">
+        <div>
+            <h1>Get in touch!</h1>
+            <p>We're open 24/7, Monday to Saturday</p>
+        </div>
+        <a href=""><p class="btn">Send us a message</p></a>
+     </div>
+     <footer>
+        <p>Copyright &copy; 2017 All Rights Reserved.</p>
+        <div class="socials">
+            <img src="images/fb-icon.png" alt="">
+            <img src="images/twit-icon.png" alt="">
+            <img src="images/ig-icon.png" alt="">
+        </div>
+     </footer>
+
+
+     <!----- IMG POP UP-->
+
+     <div id="overlay-container">
+        <div class="overlay-content">
+            <img id="overlay-img" src="" alt="">
+            <span class="close" onclick="popDown()">&times;</span>
+        </div>
+    </div>
+
+</body>
+
+    <script src="script.js"></script>
+
+</html>
